@@ -48,7 +48,6 @@ const me = {
 // Cant be an Event handler
 
 // Does not create its own EC and gets this from where its created (its surroundings)
-// "Inherits" this from parent scope
 // Regular functions define this based on how they’re called.
 /* 
   const somefunc = () => this;
